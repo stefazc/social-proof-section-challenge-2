@@ -1,0 +1,138 @@
+body{
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #502050;
+
+}
+
+/*top-container*/
+
+.ten{
+  font-size: 2.5rem;
+}
+
+
+.description{
+  line-height: 20px;
+  color: #937b92;
+  font-size: .8rem;
+}
+
+.ten-k{
+  width: 30%;
+  height: 20%;
+  display: inline-block;
+  min-width: 350px;
+  margin-left: 25px;
+
+}
+
+.bg-top{
+  position: absolute;
+  top: -100px;
+  left: -100px;
+
+
+}
+.bg-bottom{
+  width: 75%;
+  height:95%;
+  position: absolute;
+  margin-left: 25%;
+  bottom: 0;
+}
+
+
+.review-item {
+  background-color: #f7f2f7;
+  text-align: center;
+  border-radius: 12px;
+  color: #502050;
+  font-weight: 700;
+  padding: 1px 20px 1px 20px;
+  min-width: 350px;
+}
+
+.top-review{
+  position: relative;
+  left:250px;
+  top:0;
+}
+.middle-review{
+  position: relative;
+  left:300px;
+}
+.bottom-review{
+  position: relative;
+  left:350px;
+}
+
+.reviews{
+  display: inline-block;
+  height: 20%;
+
+}
+
+/*bottom-container*/
+
+.name{
+  color: #ffffff;
+  font-weight: 600;
+
+}
+.subtitle{
+  color: #ee68a4;
+  font-weight: 400;
+
+}
+.customer-img{
+  border-radius: 50%;
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
+
+.customer-review{
+  width: 23%;
+  height: 15%;
+  background-color:#502050;
+  border-radius: 12px;
+  color: #ffffff;
+  line-height: 25px;
+  padding: 30px;
+  display: inline-block;
+  min-width: 300px;
+  font-size: .8rem;
+  margin: 20px;
+}
+
+.Irene{
+  position: relative;
+  bottom: -20px;
+}
+
+.Anne{
+  position: relative;
+  bottom: -40px;
+}
+
+.top-container{
+  margin: 100px 100px 50px 100px;
+}
+
+.bottom-container{
+  margin: 0px 100px 100px 100px;
+}
+
+.attribution{
+  text-align: center;
+  font-size: .8rem;
+}
